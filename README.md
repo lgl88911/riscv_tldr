@@ -5,19 +5,21 @@ tldr file for riscv assembly instructions
 
 ## 安装
 > cd ~
-git clone https://github.com/lgl88911/riscv_tldr.git
-sudo apt-get install tldr
-cp riscv_tldr/rv32i/* ~/.tldr/tldr/pages/common/
-cp riscv_tldr/pseudo/* ~/.tldr/tldr/pages/common/
+> git clone https://github.com/lgl88911/riscv_tldr.git
+> sudo apt-get install tldr
+> cp riscv_tldr/rv32i/* ~/.tldr/tldr/pages/common/
+> cp riscv_tldr/pseudo/* ~/.tldr/tldr/pages/common/
 
 ## 使用
 和tldr一样简单
-> tldr la
+> tldr met
+![](https://github.com/lgl88911/riscv_tldr/blob/master/img/sample.gif)
 
 如果没有查找到指令，请尝试缩短查找词，只找有意义的关键词例如
 >tldr addi
 找不到就用
 >tldr add
+![](https://github.com/lgl88911/riscv_tldr/blob/master/img/sample2.gif)
 
 
 ## 贡献和Issue
