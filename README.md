@@ -4,11 +4,14 @@ tldr file for riscv assembly instructions
 目前支持RV32I和汇编伪指令。
 
 ## 安装
-> cd ~
-> git clone https://github.com/lgl88911/riscv_tldr.git
-> sudo apt-get install tldr
-> cp riscv_tldr/rv32i/* ~/.tldr/tldr/pages/common/
-> cp riscv_tldr/pseudo/* ~/.tldr/tldr/pages/common/
+> cd ~ 
+> git clone https://github.com/lgl88911/riscv_tldr.git 
+
+> sudo apt-get install tldr 
+
+> cp riscv_tldr/rv32i/* ~/.tldr/tldr/pages/common/ 
+
+> cp riscv_tldr/pseudo/* ~/.tldr/tldr/pages/common/ 
 
 ## 使用
 和tldr一样简单
